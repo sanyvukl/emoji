@@ -13,6 +13,6 @@ const createEntry = (emoji) => {
   );
 };
 
-const MapedEntry = emojipedia.map(createEntry);
+const MapedEntry = () => emojipedia.map(createEntry);
 
 export default MapedEntry;
